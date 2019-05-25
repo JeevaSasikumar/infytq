@@ -1,0 +1,17 @@
+#PF-Prac-11
+def find_upper_and_lower(sentence):
+    #start writing your code here
+    lo=0
+    hi=0
+    for i in sentence:
+        if(i>="a" and i<="z"):
+            lo=lo+1
+        if(i>="A" and i<="Z"):
+            hi+=1
+    result_list=[]
+    result_list.append(hi)
+    result_list.append(lo)
+    return result_list
+
+sentence="Hello world!"
+print(find_upper_and_lower(sentence))

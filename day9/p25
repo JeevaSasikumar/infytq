@@ -1,0 +1,11 @@
+#PF-Prac-25
+def list_of_count(word_list):
+    #start writing your code here
+    li=[]
+    for i in word_list:
+        c=len(i)
+        li.append(c)
+    return li
+
+word_list=["COme","here"]
+print(list_of_count(word_list))
