@@ -7,7 +7,6 @@ for i in range(1,m):
         a.append(b[j])
 c=m*n
 d=[]
-print(a)
 for i in range(0,c):
     if(i%n<=n-4):
         if(a[i]==a[i+1] and a[i+1]==a[i+2] and a[i+1]==a[i+2]):
