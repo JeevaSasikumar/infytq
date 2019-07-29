@@ -9,7 +9,7 @@ c=m*n
 d=[]
 print(a)
 for i in range(0,c):
-    if(i%n<=1):
+    if(i%n<=n-4):
         if(a[i]==a[i+1] and a[i+1]==a[i+2] and a[i+1]==a[i+2]):
             d.append(a[i])
 for i in range(0,c):
