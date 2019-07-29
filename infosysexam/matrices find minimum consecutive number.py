@@ -25,4 +25,4 @@ for i in range(0,c):
         if(a[i]==a[i+n-1] and a[i]==a[i+(2*(n-1))] and a[i]==a[i+(3*(n-1))]):
             d.append(a[i])
         
-print(d)
+print(min(d))
